@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
+import BentoGrid from "@/components/BentoGrid";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
@@ -10,6 +11,7 @@ const Index = () => {
       <Hero />
       <Features />
       <HowItWorks />
+      <BentoGrid />
       <FAQ />
       <Footer />
     </div>
