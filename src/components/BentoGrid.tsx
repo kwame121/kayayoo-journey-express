@@ -29,7 +29,7 @@ const BentoGrid = () => {
   ];
 
   return (
-    <div className="bg-kayayoo-black py-20">
+    <div id="highlights" className="bg-kayayoo-black py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white animate-fade-in">
           Platform <span className="text-kayayoo-yellow">Highlights</span>

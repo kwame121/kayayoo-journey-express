@@ -20,7 +20,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-kayayoo-black to-kayayoo-darkgray py-20">
+    <div className=" from-kayayoo-black to-kayayoo-darkgray py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white animate-fade-in">
           A Smarter Way to Send Packages
@@ -38,7 +38,7 @@ const HowItWorks = () => {
                   <h3 className="text-xl font-semibold mb-2 text-white text-center">{step.title}</h3>
                   <p className="text-gray-400 text-center">{step.description}</p>
                 </div>
-                <div className="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-kayayoo-yellow text-black font-bold flex items-center justify-center animate-bounce">
+                <div className="hidden  absolute top-[-15px] left-1/2 -translate-x-1/2 -translate-y-1/4 w-8 h-8 rounded-full bg-kayayoo-yellow text-black font-bold md:flex items-center justify-center animate-bounce">
                   {index + 1}
                 </div>
               </div>

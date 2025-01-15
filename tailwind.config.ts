@@ -30,7 +30,7 @@ export default {
         kayayoo: {
           black: "#000000",
           darkgray: "#222222",
-          yellow: "#FFD700",
+          yellow: "#FFAD60",
           lightyellow: "#FEF7CD",
         },
         primary: {
