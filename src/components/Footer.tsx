@@ -15,16 +15,19 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-kayayoo-yellow">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-kayayoo-yellow">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-kayayoo-yellow">Terms of Service</a></li>
+              <li><a href="/privacy" className="text-gray-400 hover:text-kayayoo-yellow">Privacy Policy</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-kayayoo-yellow">Terms of Service</a></li> */}
             </ul>
           </div>
           
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">Email: info@kayayoo.com</li>
-              <li className="text-gray-400">Phone: +1 (234) 567-8900</li>
+              <li className="text-gray-400" >Email: <a href="mailto:info@kayayoo.com">info@kayayoo.com</a></li>
+              <li className="text-gray-400">2 Whitney Street,</li>
+              <li className="text-gray-400">North Grafton,</li>
+              <li className="text-gray-400">Massachusetts,</li>
+              <li className="text-gray-400">01536</li>
             </ul>
           </div>
           
